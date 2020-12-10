@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minesweeper</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+
+    <body align="center">
+        <div class="tl">
+            <h1 align="center">MINESWEEPER</h1>
+            <hr />
+        </div>
+
+        <div class="btns_choices" align="center">
+            <select id="chLevel" onchange="chngLevel();">
+                <option>Easy</option>
+                <option>Medium</option>
+                <option>Hard</option>
+            </select>
+            <button onclick="initMap();">Restart</button>
+        </div>
+
+        <div align="center" id="mapDisplay"> </div>
+        <script defer src="index.js"></script>
+    </body>
+</html>
