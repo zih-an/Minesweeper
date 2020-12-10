@@ -78,6 +78,7 @@ function victory() {
     `);
     pg.textContent = "VICTORY";
     mapDisplay.appendChild(pg);
+    over = true;
     return;
 }
 
