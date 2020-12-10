@@ -1,6 +1,14 @@
 h1 {
     margin-bottom: 0px;
 }
+div {
+    /* 禁止选中文本 */
+    -moz-user-select: none; /*火狐*/
+    -webkit-user-select: none; /*webkit浏览器*/
+    -ms-user-select: none; /*IE10*/
+    -khtml-user-select: none; /*早期浏览器*/
+    user-select: none;
+}
 #mapDisplay td {
     border: 1px solid rgb(234, 253, 181);
     width: 20px;
