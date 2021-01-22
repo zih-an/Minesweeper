@@ -1,3 +1,3 @@
 # Minesweeper
 JavaScript implementation
-[PLAY NOW!](https://zzhao.plus/Minesweeper/index.html)
+[PLAY NOW!](http://playerz.plus/Minesweeper/index.html)
